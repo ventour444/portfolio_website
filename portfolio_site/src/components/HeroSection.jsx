@@ -10,6 +10,8 @@ const HeroSection = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, type: 'spring' }}
         className="text-6xl font-bold mb-4"
+        whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+        whileTap={{ scale: 0.9 }}
       >
         Austin Ventour
       </motion.h1>
@@ -18,6 +20,8 @@ const HeroSection = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
         className="text-xl"
+        whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
+        whileTap={{ scale: 0.95 }}
       >
         I am a software engineer. Welcome to my website!
       </motion.p>

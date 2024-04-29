@@ -8,13 +8,11 @@ import AboutMe from './components/AboutMe';
 function App() {
   return (
     <>
-    <div className='App'>
       <HeroSection />
+      <ContactForm />
       <div className="container mx-auto px-4 ">
         <AboutMe />
         <PortfolioSection />
-        <ContactForm />
-      </div>
       </div>
     </>
   );
